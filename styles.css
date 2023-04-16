@@ -1,0 +1,126 @@
+html{
+    height: 400px;
+
+}
+
+body {
+    text-align: center;
+    /* width: 400px; */
+    /* height: 100vh; */
+    color: wheat;
+    height: 50px;
+    overflow: hidden;
+    /* background-color: rgb(245, 222, 179,0.1); */
+}
+
+.main {
+    
+    margin: 0 auto;
+    width: 400px;
+}
+
+* {
+    color: wheat;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    margin: 5%;
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+div {
+    text-align: center;
+}
+
+div img {
+    margin: 0 auto;
+    width: 50%;
+}
+
+h3 {
+    text-align: center;
+}
+
+.ultop {
+    border: 1px solid black;
+    list-style: none;
+}
+
+ul {
+    margin-left: -9%;
+
+}
+
+li {
+    text-decoration: none;
+    width: 30%;
+    margin: 0 auto;
+    font-size: large;
+    list-style: none;
+    background-color: rgb(245, 222, 179, 0.1);
+
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+li {
+    color: #fd9494;
+    background: transparent;
+    border: 3px solid rgb(245, 222, 179, 0.2);
+    border-radius: 10px 100px / 120px;
+}
+
+li:hover,
+li:focus,
+li:active {
+    color: #fff;
+    text-shadow: 0 .5px 1px rgba(0, 0, 0, 0.4);
+    border: none;
+    background: linear-gradient(45deg, #dc2424, #4a569d);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    /* transform: translateY(-5px); */
+}
+ul:hover>li {
+    opacity: 0.3;
+}
+
+ul:hover>li:hover {
+    opacity: 1;
+}
+
+.daymode h1 {
+    font-size: 30px;
+    color: wheat;
+}
+
+span.price-value {
+    color: orange;
+}
+
+#dDropDown {
+    animation: rotation 1s linear 0s infinite;
+    animation: aia2 1s linear 0s infinite;
+    animation-play-state: paused;
+  }
+
+  @-webkit-keyframes aia2{
+    to {
+        transform: rotate(360deg)
+      }   
+  }
+  
+  @keyframes rotation {
+    to {
+      transform: rotate(360deg)
+    }
+  }
